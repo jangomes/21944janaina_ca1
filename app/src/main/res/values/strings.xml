@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">21944janaina_ca1</string>
+    <string name="education">Education</string>
+    <string name="skill">Skills</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="achi">Triumph</string>
+
+
     <string name="janaina">Janaina Gomes da Silva</string>
     <string name="intro">My name is Janaina, I was born and raised in São Paulo, Brazil. I graduated in Architecture and Urbanism in 2018, worked creating projects and helping to manage a residential area. In 2019 I moved to Dublin in Ireland to learn a new language. The change of country made me rethink my life goals and in 2021 I decided to applied to start the Computer Science College at Dorset College. I am currently in my first year of college which lasts three years.</string>
-    <string name="contact">Contact me</string>
+    <string name="contact">Contact me:</string>
+    <string name="email">Email:</string>
+    <string name="emaill">21944@student.dorset.college.ie</string>
+
+    <string name="photo">photo</string>
+
+    <string name="cr">© Copyright Janaina Gomes 2022</string>
+    <string name="android">Built with Android Studio</string>
+
+
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
 </resources>
