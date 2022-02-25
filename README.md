@@ -14,3 +14,16 @@ release 1: Basics
 - [x] Photo. 
 - [x] Created an APK
 - [x] Introduction of vector icons
+
+release 2: Buttons
+
+Creating the other four activities (they are basic for now)
+- [x] 4 buttons that link the other activities in each
+- [x] icon adjustment
+- [x] button adjustment
+- [x] Linear Layout adjustment
+- [x] Scroll View adjustment
+- [x] Text view of copy and right
+- [x] Android Manifest adjustment
+- [x] strings adjustment
+
