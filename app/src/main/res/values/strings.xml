@@ -1,11 +1,15 @@
 <resources>
+
+    // Top txt
+    <string name="home">Home</string>
     <string name="app_name">21944janaina_ca1</string>
     <string name="education">Education</string>
     <string name="skill">Skills</string>
     <string name="hobbies">Hobbies</string>
-    <string name="achi">Triumph</string>
+    <string name="achi">Awards</string>
 
 
+    //HOME TXT
     <string name="janaina">Janaina Gomes da Silva</string>
     <string name="intro">My name is Janaina, I was born and raised in São Paulo, Brazil. I graduated in Architecture and Urbanism in 2018, worked creating projects and helping to manage a residential area. In 2019 I moved to Dublin in Ireland to learn a new language. The change of country made me rethink my life goals and in 2021 I decided to applied to start the Computer Science College at Dorset College. I am currently in my first year of college which lasts three years.</string>
     <string name="contact">Contact me:</string>
@@ -14,11 +18,42 @@
 
     <string name="photo">photo</string>
 
-    <string name="cr">© Copyright Janaina Gomes 2022</string>
-    <string name="android">Built with Android Studio</string>
+    //education
+    <string name="course1">Bachelor in Computer Science</string>
+    <string name="dorset">Dorset College - Dublin, County Dublin</string>
+    <string name="startdorset">January 2021 to Present</string>
+
+    <string name="course2">Bachelor of Architecture and Urbanism</string>
+    <string name="unip">UNIP - Sao Paulo, Brazil</string>
+    <string name="startunip">January 2014 until December 2018</string>
+
+    //Skills
+    <string name="knowledge">Knowledge</string>
+
+    <string name="kotlin">Kotlin</string>
+    <string name="c">C#</string>
+    <string name="figma">Figma</string>
+    <string name="html">HTML</string>
+    <string name="css">CSS</string>
+    <string name="sql">My SQL</string>
 
 
+    //Hobbies
+
+    <string name="read">Read</string>
+    <string name="movie">Movie</string>
+    <string name="learn">Learn</string>
+
+    //Achievement
+    <string name="no">Read</string>
+
+
+    //BOTTOM BUTTONS
     <string name="next">Next</string>
     <string name="back">Back</string>
     <string name="close">Close</string>
+
+    //COPY RIGHT
+    <string name="cr">© Copyright Janaina Gomes 2022</string>
+    <string name="android">Built with Android Studio</string>
 </resources>

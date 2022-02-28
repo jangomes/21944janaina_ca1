@@ -10,30 +10,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-        val edButton = findViewById<Button>(R.id.education_Button)
+        val edButton = findViewById<Button>(R.id.education_Button1)
         edButton.setOnClickListener {
             val intent = Intent (this, SecondaryActivity ::class.java)
-        startActivity(intent)
+            startActivity(intent)
         }
 
-
-        val skButton = findViewById<Button>(R.id.skill_Button)
+        val skButton = findViewById<Button>(R.id.skill_Button1)
         skButton.setOnClickListener {
-            val intent = Intent (this, SecondaryActivity ::class.java)
+            val intent = Intent (this, ThirdActivity ::class.java)
             startActivity(intent)
         }
 
-        val hoButton = findViewById<Button>(R.id.hobbies_Button)
+        val hoButton = findViewById<Button>(R.id.hobbies_Button1)
         hoButton.setOnClickListener {
-            val intent = Intent (this, SecondaryActivity ::class.java)
+            val intent = Intent (this, FourthActivity ::class.java)
+            startActivity(intent)
+        }
+
+        val acButton = findViewById<Button>(R.id.achi_Button1)
+        acButton.setOnClickListener {
+            val intent = Intent (this, FifthActivity ::class.java)
             startActivity(intent)
         }
 
 
-
-        val acButton = findViewById<Button>(R.id.achi_Button)
-        acButton.setOnClickListener {
+        val nxtButton = findViewById<Button>(R.id.nextButton)
+        nxtButton.setOnClickListener {
             val intent = Intent (this, SecondaryActivity ::class.java)
             startActivity(intent)
         }
