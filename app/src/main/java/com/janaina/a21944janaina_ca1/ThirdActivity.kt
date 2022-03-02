@@ -39,5 +39,17 @@ class ThirdActivity : AppCompatActivity() {
             val intent = Intent (this, MainActivity ::class.java)
             startActivity(intent)
         }
+
+        val backButton3 = findViewById<Button>(R.id.back_button3)
+        backButton3.setOnClickListener {
+            val intent = Intent (this, SecondaryActivity ::class.java)
+            startActivity(intent)
+        }
+
+        val nextButton3 = findViewById<Button>(R.id.next_button3)
+        nextButton3.setOnClickListener {
+            val intent = Intent (this, FourthActivity ::class.java)
+            startActivity(intent)
+        }
     }
 }

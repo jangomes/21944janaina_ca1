@@ -40,5 +40,11 @@ class FifthActivity : AppCompatActivity() {
             val intent = Intent (this, MainActivity ::class.java)
             startActivity(intent)
         }
+
+        val backButton5 = findViewById<Button>(R.id.back_button5)
+        backButton5.setOnClickListener {
+            val intent = Intent (this, FourthActivity ::class.java)
+            startActivity(intent)
+        }
     }
 }

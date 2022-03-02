@@ -6,16 +6,18 @@
     <string name="education">Education</string>
     <string name="skill">Skills</string>
     <string name="hobbies">Hobbies</string>
-    <string name="achi">Awards</string>
+    <string name="achi">Achievements</string>
 
 
     //HOME TXT
+    <string name="id">Computer Science Student</string>
     <string name="janaina">Janaina Gomes da Silva</string>
+    <string name="about">About me</string>
     <string name="intro">My name is Janaina, I was born and raised in São Paulo, Brazil. I graduated in Architecture and Urbanism in 2018, worked creating projects and helping to manage a residential area. In 2019 I moved to Dublin in Ireland to learn a new language. The change of country made me rethink my life goals and in 2021 I decided to applied to start the Computer Science College at Dorset College. I am currently in my first year of college which lasts three years.</string>
     <string name="contact">Contact me:</string>
-    <string name="email">Email:</string>
-    <string name="emaill">21944@student.dorset.college.ie</string>
-
+    <string name="phone">+353 083 383 5756</string>
+    <string name="email">21944@student.dorset.college.ie</string>
+    <string name="git">github.com/jangomes</string>
     <string name="photo">photo</string>
 
     //education
@@ -28,9 +30,9 @@
     <string name="startunip">January 2014 until December 2018</string>
 
     //Skills
-    <string name="knowledge">Knowledge</string>
+    <string name="knowledge">Tools and Technologies</string>
 
-    <string name="kotlin">Kotlin</string>
+    <string name="kotlin">Android</string>
     <string name="c">C#</string>
     <string name="figma">Figma</string>
     <string name="html">HTML</string>
@@ -41,11 +43,22 @@
     //Hobbies
 
     <string name="read">Read</string>
+    <string name="read1">I like to read all kinds of books, when I moved to a new country it helped me to lear a new language.</string>
     <string name="movie">Movie</string>
+    <string name="movie1">Watching movies also helped me to learn another language, it is a great way to rest and learn at the same time</string>
     <string name="learn">Learn</string>
+    <string name="learn1">I love to learn new things, I always try to learn something that will help me to develop my career or even my values as a human being.</string>
+    <string name="travel">Travel</string>
+    <string name="travel1">I like to travel to get to know other cultures and customs. It helps me better understand people and the world</string>
+
 
     //Achievement
-    <string name="no">Read</string>
+    <string name="reward">I won a scholarship to attend college for free in Brazil</string>
+    <string name="college">I graduated with honours</string>
+    <string name="language">I learned to speak English</string>
+    <string name="abroad">I am the first person in my family to live in another country.</string>
+    <string name="world">I went to other countries like Italy and Paris</string>
+
 
 
     //BOTTOM BUTTONS

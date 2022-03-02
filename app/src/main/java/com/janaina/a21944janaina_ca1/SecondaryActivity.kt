@@ -40,5 +40,17 @@ class SecondaryActivity : AppCompatActivity() {
             val intent = Intent (this, MainActivity ::class.java)
             startActivity(intent)
         }
+
+        val backButton2 = findViewById<Button>(R.id.back_button2)
+        backButton2.setOnClickListener {
+            val intent = Intent (this, MainActivity ::class.java)
+            startActivity(intent)
+        }
+
+        val nextButton2 = findViewById<Button>(R.id.next_button2)
+        nextButton2.setOnClickListener {
+            val intent = Intent (this, ThirdActivity ::class.java)
+            startActivity(intent)
+        }
     }
 }

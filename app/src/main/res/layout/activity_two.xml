@@ -9,7 +9,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
     android:gravity="end"
 
     >
@@ -57,48 +56,71 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <Button
             android:id="@+id/education_Button2"
-            android:layout_width="90dp"
-            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:drawableTop="@drawable/ic_graduation_svgrepo_com"
             android:backgroundTint="@color/white"
             tools:ignore="SpeakableTextPresentCheck"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
 
         <Button
             android:id="@+id/skill_Button2"
-            android:layout_width="90dp"
-            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="5dp"
             android:drawableTop="@drawable/ic_settings_svgrepo_com"
             android:backgroundTint="@color/white"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            style="?android:attr/buttonBarButtonStyle"/>
 
         <Button
             android:id="@+id/hobbies_Button2"
-            android:layout_width="90dp"
-            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="5dp"
             android:drawableTop="@drawable/ic_puzzle_svgrepo_com"
             android:backgroundTint="@color/white"
             tools:ignore="SpeakableTextPresentCheck"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
         <Button
             android:id="@+id/achi_Button2"
-            android:layout_width="90dp"
-            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="5dp"
             android:drawableTop="@drawable/ic_badge_svgrepo_com"
             android:backgroundTint="@color/white"
             tools:ignore="SpeakableTextPresentCheck"
+            style="?android:attr/buttonBarButtonStyle"
             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <View
+            android:id="@+id/up_divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
 
     </LinearLayout>
 
@@ -106,6 +128,7 @@
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="0dp"
+        android:padding="10dp"
         android:orientation="vertical"
         android:contentDescription="@string/app_name"
         tools:layout_editor_absoluteX="1dp"
@@ -123,6 +146,7 @@
                 android:gravity="center"
                 android:textSize="25sp"
                 android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:text="@string/education" />
 
             <ImageView
@@ -141,6 +165,7 @@
                 android:layout_marginTop="15dp"
                 android:textSize="18sp"
                 android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:text="@string/course1" />
 
             <TextView
@@ -150,7 +175,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/black"
                 android:layout_marginEnd="35dp"
                 android:text="@string/dorset" />
 
@@ -161,7 +186,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/black"
                 android:layout_marginEnd="35dp"
                 android:text="@string/startdorset" />
 
@@ -184,6 +209,7 @@
                 android:layout_marginTop="15dp"
                 android:textSize="18sp"
                 android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                 android:text="@string/course2" />
 
             <TextView
@@ -193,7 +219,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/black"
                 android:layout_marginEnd="35dp"
                 android:text="@string/unip" />
 
@@ -204,7 +230,7 @@
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
-                android:textColor="@color/colorPrimaryDark"
+                android:textColor="@color/black"
                 android:layout_marginEnd="35dp"
                 android:text="@string/startunip" />
 
@@ -213,6 +239,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginEnd="250dp"
+                android:layout_marginStart="15dp"
                 android:contentDescription="@string/photo"
                 app:srcCompat="@drawable/logo_unip_png_1"
                 tools:ignore="ImageContrastCheck" />
@@ -227,7 +254,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textSize="16sp"
+                android:textSize="12sp"
                 android:paddingTop="50dp"
                 android:text="@string/cr" />
 
@@ -236,8 +263,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textSize="16sp"
+                android:textSize="12sp"
                 android:paddingTop="5dp"
+                android:layout_marginBottom="20dp"
                 android:text="@string/android" />
 
 
@@ -249,40 +277,59 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <View
+            android:id="@+id/down_divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
         >
 
         <Button
-            android:id="@+id/back_button"
-            android:layout_width="94dp"
-            android:layout_height="90dp"
+            android:id="@+id/back_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="5dp"
-            android:layout_marginStart="50dp"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_action_undo_svgrepo_com"
             android:text="@string/home"
             android:textColor="@color/black"
-            android:textSize="11sp" />
+            android:textSize="11sp"
+            style="?android:attr/buttonBarButtonStyle"/>
 
         <Button
             android:id="@+id/home_button"
-            android:layout_width="94dp"
-            android:layout_height="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="5dp"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_home_svgrepo_com"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            style="?android:attr/buttonBarButtonStyle"/>
 
 
         <Button
-            android:id="@+id/nextButton"
-            android:layout_width="94dp"
-            android:layout_height="90dp"
+            android:id="@+id/next_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="5dp"
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_action_redo_svgrepo_com"
             android:text="@string/skill"
             android:textColor="@color/black"
             android:textSize="11sp"
+            style="?android:attr/buttonBarButtonStyle"
             />
 
     </LinearLayout>
