@@ -50,9 +50,13 @@ Hard:
 release 1: Basics
 
 [x] - Main menu. 
+
 [x] - 4 buttons that link the other activities. 
+
 [x] - Text view with full name. 
+
 [x] - Text view with intro.
+
 [x] - Text view with contact.
 [x] - Photo. 
 [x] - Created an APK
