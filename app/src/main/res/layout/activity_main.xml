@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center"
         android:background="@color/black"
         >
 
@@ -153,11 +154,11 @@
                 android:id="@+id/id_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_marginTop="30dp"
-                android:textSize="18sp"
+                android:gravity="center"
+                android:text="@string/id"
                 android:textColor="@color/black"
-                android:text="@string/id" />
+                android:textSize="18sp" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/imageView2"
@@ -169,7 +170,6 @@
                 android:scaleType="centerCrop"
                 app:shapeAppearanceOverlay="@style/Circular"
                 app:srcCompat="@drawable/img_20200620_142258"
-
                 app:strokeWidth="5dp"
                 tools:ignore="ImageContrastCheck" />
 
@@ -177,13 +177,11 @@
                 android:id="@+id/about_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginStart="35dp"
                 android:layout_marginTop="450dp"
-                android:layout_marginEnd="35dp"
+                android:gravity="center"
                 android:text="@string/about"
-                android:textColor="@color/black"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <TextView
@@ -193,6 +191,7 @@
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="480dp"
                 android:layout_marginEnd="35dp"
+                android:gravity="center"
                 android:text="@string/intro"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -275,19 +274,20 @@
                 android:id="@+id/cr_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textSize="12sp"
                 android:layout_marginTop="1050dp"
-                android:text="@string/cr" />
+                android:background="@drawable/_6906b68d2a52712a832657c52de4815_divisor_de_linha_de_borda_ornamentado"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="@string/cr"
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/android_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginTop="1070dp"
+                android:layout_marginTop="1120dp"
                 android:textSize="12sp"
-                android:paddingTop="5dp"
                 android:layout_marginBottom="20dp"
                 android:text="@string/android" />
 

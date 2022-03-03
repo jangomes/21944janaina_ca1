@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center"
         android:background="@color/black"
         >
 
@@ -137,6 +138,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:orientation="vertical">
 
             <TextView
@@ -161,7 +163,7 @@
                 android:id="@+id/couse1_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
+                android:gravity="center"
                 android:layout_marginTop="15dp"
                 android:textSize="18sp"
                 android:textColor="@color/black"
@@ -172,29 +174,26 @@
                 android:id="@+id/dorset_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
+                android:gravity="center"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
                 android:textColor="@color/black"
-                android:layout_marginEnd="35dp"
                 android:text="@string/dorset" />
 
             <TextView
                 android:id="@+id/startdorset_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
+                android:gravity="center"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
                 android:textColor="@color/black"
-                android:layout_marginEnd="35dp"
                 android:text="@string/startdorset" />
 
                 <ImageView
                 android:id="@+id/dorset"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:layout_marginEnd="250dp"
                 android:contentDescription="@string/photo"
                 app:srcCompat="@drawable/logo_website"
                 tools:ignore="ImageContrastCheck" />
@@ -205,8 +204,8 @@
                 android:id="@+id/couse2_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
                 android:layout_marginTop="15dp"
+                android:gravity="center"
                 android:textSize="18sp"
                 android:textColor="@color/black"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -216,36 +215,29 @@
                 android:id="@+id/unip_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
+                android:gravity="center"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
                 android:textColor="@color/black"
-                android:layout_marginEnd="35dp"
                 android:text="@string/unip" />
 
             <TextView
                 android:id="@+id/startunip_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="25dp"
+                android:gravity="center"
                 android:layout_marginTop="10dp"
                 android:textSize="16sp"
                 android:textColor="@color/black"
-                android:layout_marginEnd="35dp"
                 android:text="@string/startunip" />
 
             <ImageView
                 android:id="@+id/unip"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:layout_marginEnd="250dp"
-                android:layout_marginStart="15dp"
                 android:contentDescription="@string/photo"
                 app:srcCompat="@drawable/logo_unip_png_1"
                 tools:ignore="ImageContrastCheck" />
-
-
-
 
 
 
@@ -253,20 +245,21 @@
                 android:id="@+id/cr_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/_6906b68d2a52712a832657c52de4815_divisor_de_linha_de_borda_ornamentado"
                 android:gravity="center"
-                android:textSize="12sp"
-                android:paddingTop="50dp"
-                android:text="@string/cr" />
+                android:paddingTop="10dp"
+                android:text="@string/cr"
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/android_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textSize="12sp"
-                android:paddingTop="5dp"
                 android:layout_marginBottom="20dp"
-                android:text="@string/android" />
+                android:layout_marginTop="-40dp"
+                android:gravity="center"
+                android:text="@string/android"
+                android:textSize="12sp" />
 
 
         </LinearLayout>

@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/black"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
@@ -133,7 +134,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <TextView
                 android:id="@+id/hobbie_textView"
@@ -157,15 +159,6 @@
                 app:strokeWidth="5dp"
                 tools:ignore="ImageContrastCheck" />
 
-            <View
-                android:id="@+id/middle_divider"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_marginTop="230dp"
-                android:background="?android:attr/listDivider"
-                android:backgroundTint="#050505" />
-
-
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/book_ImageView"
                 android:layout_width="150dp"
@@ -184,21 +177,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="230dp"
-                android:layout_marginEnd="5dp"
                 android:layout_marginTop="300dp"
+                android:layout_marginEnd="5dp"
                 android:text="@string/reward"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
-
-
             <View
-                android:id="@+id/middle_divider1"
+                android:id="@+id/middle_divider"
                 android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_marginTop="440dp"
+                android:layout_height="210dp"
+                android:layout_marginTop="450dp"
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#050505" />
-
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/grad_ImageView"
@@ -223,52 +213,40 @@
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
-            <View
-                android:id="@+id/middle_divider2"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_marginTop="660dp"
-                android:background="?android:attr/listDivider"
-                android:backgroundTint="#050505" />
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/English_ImageView"
+            <ImageView
+                android:id="@+id/asset_imageView"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="690dp"
-                android:contentDescription="@string/photo"
-                android:scaleType="centerCrop"
-                app:shapeAppearanceOverlay="@style/almostCircular"
-                app:srcCompat="@drawable/board_64269_960_720"
-                app:strokeWidth="5dp"
-                tools:ignore="ImageContrastCheck" />
+                android:layout_marginTop="680dp"
+                app:srcCompat="@mipmap/ic_image_assetboard_round"
+                android:contentDescription="@string/achi" />
 
             <TextView
                 android:id="@+id/language_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="230dp"
-                android:layout_marginTop="750dp"
+                android:layout_marginTop="740dp"
                 android:text="@string/language"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
             <View
-                android:id="@+id/middle_divider3"
+                android:id="@+id/middle_divider2"
                 android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_marginTop="880dp"
+                android:layout_height="210dp"
+                android:layout_marginTop="870dp"
                 android:background="?android:attr/listDivider"
                 android:backgroundTint="#050505" />
-
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/abroad_ImageView"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 android:layout_marginStart="220dp"
-                android:layout_marginTop="920dp"
+                android:layout_marginTop="890dp"
                 android:contentDescription="@string/photo"
                 android:scaleType="centerCrop"
                 app:shapeAppearanceOverlay="@style/specificcircular"
@@ -281,25 +259,17 @@
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="960dp"
+                android:layout_marginTop="920dp"
                 android:text="@string/abroad"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
-
-            <View
-                android:id="@+id/middle_divider4"
-                android:layout_width="wrap_content"
-                android:layout_height="10dp"
-                android:layout_marginTop="1100dp"
-                android:background="?android:attr/listDivider"
-                android:backgroundTint="#050505" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/world_ImageView"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="1130dp"
+                android:layout_marginTop="1110dp"
                 android:contentDescription="@string/photo"
                 android:scaleType="centerCrop"
                 app:shapeAppearanceOverlay="@style/specific"
@@ -312,20 +282,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="220dp"
-                android:layout_marginTop="1180dp"
+                android:layout_marginTop="1160dp"
                 android:text="@string/world"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
-
-
 
             <TextView
                 android:id="@+id/cr_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1300dp"
+                android:background="@drawable/_6906b68d2a52712a832657c52de4815_divisor_de_linha_de_borda_ornamentado"
                 android:gravity="center"
-                android:paddingTop="50dp"
+                android:paddingTop="10dp"
                 android:text="@string/cr"
                 android:textSize="12sp" />
 
@@ -336,7 +305,7 @@
                 android:layout_marginTop="1370dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:paddingTop="5dp"
+                android:paddingTop="10dp"
                 android:text="@string/android"
                 android:textSize="12sp" />
 

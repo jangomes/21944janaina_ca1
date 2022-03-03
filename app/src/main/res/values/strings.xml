@@ -23,11 +23,11 @@
     //education
     <string name="course1">Bachelor in Computer Science</string>
     <string name="dorset">Dorset College - Dublin, County Dublin</string>
-    <string name="startdorset">January 2021 to Present</string>
+    <string name="startdorset">Jan 2021 to Present</string>
 
     <string name="course2">Bachelor of Architecture and Urbanism</string>
     <string name="unip">UNIP - Sao Paulo, Brazil</string>
-    <string name="startunip">January 2014 until December 2018</string>
+    <string name="startunip">Jan 2014 until Dec 2018</string>
 
     //Skills
     <string name="knowledge">Tools and Technologies</string>

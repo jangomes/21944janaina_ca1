@@ -46,5 +46,15 @@ class FifthActivity : AppCompatActivity() {
             val intent = Intent (this, FourthActivity ::class.java)
             startActivity(intent)
         }
+
+        val closeButton = findViewById<Button>(R.id.closebutton)
+        closeButton.setOnClickListener {
+
+            val intent = Intent(Intent.ACTION_MAIN)
+            intent.addCategory(Intent.CATEGORY_HOME)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
+
+        }
     }
 }

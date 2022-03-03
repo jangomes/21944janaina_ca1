@@ -1,11 +1,12 @@
 package com.janaina.a21944janaina_ca1
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -41,8 +42,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val closeButton = findViewById<Button>(R.id.closebutton)
+        closeButton.setOnClickListener {
 
+            val intent = Intent(Intent.ACTION_MAIN)
+            intent.addCategory(Intent.CATEGORY_HOME)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
+
+        }
 
     }
+
+
 }
 
