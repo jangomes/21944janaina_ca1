@@ -72,9 +72,9 @@ Hard:
 [x] - Show both icons and text in buttons (except home icon)
 
 [x] - Make ImageView display your photo with rounded corners (without editing your photo)
-.
-.
-.
+
+
+
 RELEASE 1: Basics
 
 [x] - Main menu. 
@@ -92,9 +92,9 @@ RELEASE 1: Basics
 [x] - Created an APK
 
 [x] - Introduction of vector icons
-.
-.
-.
+
+
+
 Report: 
 
 Developing this application, I basically followed what was presented in class, most of the code was directly created based on the explanations provided by the teacher.
@@ -105,9 +105,9 @@ How to create circular borders in photos; The solution was to change from “Ima
 How to change the screen by clicking on the button: To solve this problem I followed the step by step taught by the teacher during the class, changing the “MainActivity”.
 How to close the application with the click through the button: In this case I had to carry out an internet search that led me to a code added in the “MainActivity” that closes the application when the button is clicked.
 The project was solved through testing in the design area and following the teacher's code.
-.
-.
-.
+
+
+
 References:
 
 App close button:
