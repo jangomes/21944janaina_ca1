@@ -74,6 +74,7 @@ Hard:
 [x] - Make ImageView display your photo with rounded corners (without editing your photo)
 
 
+
 release 1: Basics
 
 [x] - Main menu. 
@@ -91,3 +92,29 @@ release 1: Basics
 [x] - Created an APK
 
 [x] - Introduction of vector icons
+
+
+
+Developing this application, I basically followed what was presented in class, most of the code was directly created based on the explanations provided by the teacher.
+During the creation process I had some difficulties such as:
+Put a border at the top of a text: my alternative was to include an image of a line in the background that gave the appearance of a single dividing line at the top of the text.
+How to use Lifecycle more effectively: despite understanding the concept of the lifecycle I decided not to add more of them, I need to study and understand the code better.
+How to create circular borders in photos; The solution was to change from “ImageView” to com.google.android.material.imageview.ShapeableImageView, create an “xml” with the parameters I wanted and reference the photo through “app:shapeApperanceOverlay”
+How to change the screen by clicking on the button: To solve this problem I followed the step by step taught by the teacher during the class, changing the “MainActivity”.
+How to close the application with the click through the button: In this case I had to carry out an internet search that led me to a code added in the “MainActivity” that closes the application when the button is clicked.
+The project was solved through testing in the design area and following the teacher's code.
+
+References:
+
+App close button:
+Amaro, G., 2013. Como criar botão para sair / fechar aplicação (Android). [online] Spigando e Aprendendo. Available at: <https://spigandoeaprendendo.wordpress.com/2013/06/28/como-criar-botao-para-sair-fechar-aplicacao-android/> [Accessed 3 March 2022].
+
+Lifecycle:
+Code Palace, 2020. The Lifecycle Component Tutorial in Android Studio (Kotlin). [image] Available at: <https://www.youtube.com/watch?v=INauhIIoQ_s> [Accessed 3 March 2022].
+
+Creating a radius corner:
+Smartherd, 2020. Shape your Image with Circle, Rounded Square, Cuts at corner. Shapeable ImageView in Android Studio. [image] Available at: <https://www.youtube.com/watch?v=jihLJ0oVmGo> [Accessed 2 March 2022].
+
+Photos used from:
+Unsplash, 2022. Photos Unsplash. [image] Available at: <https://unsplash.com/> [Accessed 3 March 2022]. 
+
