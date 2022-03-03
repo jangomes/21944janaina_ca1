@@ -1,3 +1,4 @@
+#JANAINA GOMES DA SIVA - 21944
 # 21944janaina_ca1
 Mobile APP CA1 - Janaina Gomes
 
@@ -11,19 +12,19 @@ Requirements Checklist:
 
 [x] - Button Links open new Activity
 
-[ ] - Home icon opens Main Activity from back-stack instead of creating newly
+[x] - Home icon opens Main Activity from back-stack instead of creating newly
 
 [x] - Exit Button finishes the activity and closes the app
 
 [x] - Text is not hardcoded in the layout but is present in "strings" resources xml file
 
-[ ] - Image Assets
+[x] - Image Assets
 
-[ ] - Images (Raster) are used
+[x] - Images (Raster) are used
 
-[ ] - Vector icons (inbuilt material icons) are used
+[x] - Vector icons (inbuilt material icons) are used
 
-[ ] - SVG icon is used
+[x] - SVG icon is used
 
 Layout and Design:
 
@@ -41,7 +42,7 @@ In Main Activity,
 
 [x] - Copyright Text, has a small font size, has dark gray color
 
-[ ] - Copyright has a top padding 10dp with a top gray border of 1dp (to separate it out from the main content)
+[x] - Copyright has a top padding 10dp with a top gray border of 1dp (to separate it out from the main content)
 
 In all 4 extra activities, 
 
@@ -55,7 +56,7 @@ In all 4 extra activities,
 
 [x] - button row spans full width of the app (i.e. each button's width will be set based on app's width)
 
-[ ] - icon and title are displayed on top and in one row horizontally centered. Contents inside this row should be vertically aligned in the centre (while the row itself is at the top of the page)
+[x] - icon and title are displayed on top and in one row horizontally centered. Contents inside this row should be vertically aligned in the centre (while the row itself is at the top of the page)
 
 Coding Practices (Hint: Check online if you don't know what the right/best practice is):
 
