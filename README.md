@@ -95,7 +95,9 @@ release 1: Basics
 
 
 
+
 Report: 
+
 Developing this application, I basically followed what was presented in class, most of the code was directly created based on the explanations provided by the teacher.
 During the creation process I had some difficulties such as:
 Put a border at the top of a text: my alternative was to include an image of a line in the background that gave the appearance of a single dividing line at the top of the text.
@@ -104,6 +106,8 @@ How to create circular borders in photos; The solution was to change from “Ima
 How to change the screen by clicking on the button: To solve this problem I followed the step by step taught by the teacher during the class, changing the “MainActivity”.
 How to close the application with the click through the button: In this case I had to carry out an internet search that led me to a code added in the “MainActivity” that closes the application when the button is clicked.
 The project was solved through testing in the design area and following the teacher's code.
+
+
 
 References:
 
