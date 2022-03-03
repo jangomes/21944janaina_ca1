@@ -95,6 +95,7 @@ release 1: Basics
 
 
 
+Report: 
 Developing this application, I basically followed what was presented in class, most of the code was directly created based on the explanations provided by the teacher.
 During the creation process I had some difficulties such as:
 Put a border at the top of a text: my alternative was to include an image of a line in the background that gave the appearance of a single dividing line at the top of the text.
